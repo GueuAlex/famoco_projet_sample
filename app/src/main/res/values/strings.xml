@@ -1,0 +1,114 @@
+<resources>
+
+    <string name="VERSION">Version %s</string>
+
+    <string name="OP_FAILED">Operation failed</string>
+
+    <!-- ERROR CODES -->
+    <string name="MORPHO_OK">No error.</string>
+    <string name="MORPHOERR_INTERNAL">Biometrics device performed an internal error.</string>
+    <string name="MORPHOERR_PROTOCOLE">Communication protocol error.</string>
+    <string name="MORPHOERR_CONNECT">Can not connect biometrics device.</string>
+    <string name="MORPHOERR_CLOSE_COM">Error while closing communication port.</string>
+    <string name="MORPHOERR_BADPARAMETER">Invalid parameter.</string>
+    <string name="MORPHOERR_MEMORY_PC">Not enough memory (in the PC).</string>
+    <string name="MORPHOERR_MEMORY_DEVICE">Not enough memory for the creation of a database in the MSO.</string>
+    <string name="MORPHOERR_NO_HIT">Authentication or Identification failed.</string>
+    <string name="MORPHOERR_STATUS">MSO returned an unknown status error.</string>
+    <string name="MORPHOERR_DB_FULL">The database is full.</string>
+    <string name="MORPHOERR_DB_EMPTY">The database is empty.</string>
+    <string name="MORPHOERR_ALREADY_ENROLLED">User has already been enrolled.</string>
+    <string name="MORPHOERR_BASE_NOT_FOUND">The specified base does not exist.</string>
+    <string name="MORPHOERR_BASE_ALREADY_EXISTS">The specified base already exist.</string>
+    <string name="MORPHOERR_NO_ASSOCIATED_DB">User object has been instantiated without MorphoDatabase.getUser.</string>
+    <string name="MORPHOERR_NO_ASSOCIATED_DEVICE">Database object has been instantiated without MorphoDevice.getDatabase.</string>
+    <string name="MORPHOERR_INVALID_TEMPLATE">The template is not valid.</string>
+    <string name="MORPHOERR_NOT_IMPLEMENTED">Command not yet implemented in this release.</string>
+    <string name="MORPHOERR_TIMEOUT">No response after defined time.</string>
+    <string name="MORPHOERR_NO_REGISTERED_TEMPLATE">No templates have been registered.</string>
+    <string name="MORPHOERR_FIELD_NOT_FOUND">Field does not exist.</string>
+    <string name="MORPHOERR_CORRUPTED_CLASS">Class has been corrupted.</string>
+    <string name="MORPHOERR_TO_MANY_TEMPLATE">There are too many templates.</string>
+    <string name="MORPHOERR_TO_MANY_FIELD">There are too many fields.</string>
+    <string name="MORPHOERR_MIXED_TEMPLATE">Templates with different formats are mixed.</string>
+    <string name="MORPHOERR_CMDE_ABORTED">Command has been aborted.</string>
+    <string name="MORPHOERR_INVALID_PK_FORMAT">Invalid PK format.</string>
+    <string name="MORPHOERR_SAME_FINGER">User gave twice the same finger.</string>
+    <string name="MORPHOERR_OUT_OF_FIELD">The number of the additional field is more than 128.</string>
+    <string name="MORPHOERR_INVALID_USER_ID">UserID is not valid.</string>
+    <string name="MORPHOERR_INVALID_USER_DATA">The user data are not valid.</string>
+    <string name="MORPHOERR_FIELD_INVALID">Additional field name length is more than MORPHO_FIELD_NAME_LEN.</string>
+    <string name="MORPHOERR_USER_NOT_FOUND">User is not found.</string>
+    <string name="MORPHOERR_COM_NOT_OPEN">Serial COM has not been opened.</string>
+    <string name="MORPHOERR_ELT_ALREADY_PRESENT">This element is already present in the list.</string>
+    <string name="MORPHOERR_NOCALLTO_DBQUERRYFIRST">You have to call MorphoDatabase.dbQueryFirst to initialize the querry.</string>
+    <string name="MORPHOERR_USER">The communication callback functions returns error between -10000 and -10499.</string>
+    <string name="MORPHOERR_BAD_COMPRESSION">The Compression is not valid.</string>
+    <string name="MORPHOERR_SECU">Security error.</string>
+    <string name="MORPHOERR_CERTIF_UNKNOW">The MSO has not the certificate necessary to verify the signature.</string>
+    <string name="MORPHOERR_INVALID_CLASS">The class has been destroyed.</string>
+    <string name="MORPHOERR_USB_DEVICE_NAME_UNKNOWN">The specified Usb device is not plugged.</string>
+    <string name="MORPHOERR_CERTIF_INVALID">The certificate is not valid.</string>
+    <string name="MORPHOERR_SIGNER_ID">The certificate identity is not the same than the X984 certificate identity.</string>
+    <string name="MORPHOERR_SIGNER_ID_INVALID">The X984 certificate identity size is different to 20 octets (SHA_1 size).</string>
+    <string name="MORPHOERR_FFD">False Finger Detected.</string>
+    <string name="MORPHOERR_MOIST_FINGER">The finger can be too moist or the scanner is wet.</string>
+    <string name="MORPHOERR_NO_SERVER">The Morpho MorphoSmart Service Provider Usb Server is stopped or not installed.</string>
+    <string name="MORPHOERR_OTP_NOT_INITIALIZED">No parameter has been initialized.</string>
+    <string name="MORPHOERR_OTP_PIN_NEEDED">Code pin is needed : it is the first enrollment.</string>
+    <string name="MORPHOERR_OTP_REENROLL_NOT_ALLOWED">User is not allowed to be re enrolled.</string>
+    <string name="MORPHOERR_OTP_ENROLL_FAILED">Enrollment failed.</string>
+    <string name="MORPHOERR_OTP_IDENT_FAILED">Identification failed.</string>
+    <string name="MORPHOERR_NO_MORE_OTP">No more OTP available (sequence number = 0).</string>
+    <string name="MORPHOERR_OTP_NO_HIT">Authentication or Identification failed.</string>
+    <string name="MORPHOERR_OTP_ENROLL_NEEDED">Enrollment needed before generating OTP.</string>
+    <string name="MORPHOERR_DEVICE_LOCKED">The device is locked.</string>
+    <string name="MORPHOERR_DEVICE_NOT_LOCK">The device is not locked.</string>
+    <string name="MORPHOERR_OTP_LOCK_GEN_OTP">ILV_OTP_GENERATE Locked.</string>
+    <string name="MORPHOERR_OTP_LOCK_SET_PARAM">ILV_OTP_SET_PARAMETERS Locked.</string>
+    <string name="MORPHOERR_OTP_LOCK_ENROLL">ILV_OTP_ENROLL_USER Locked.</string>
+    <string name="MORPHOERR_FVP_MINUTIAE_SECURITY_MISMATCH">Security level mismatch: attempt to match fingerprint template in high security level (MorphoSmart FINGER VP only).</string>
+    <string name="MORPHOERR_FVP_FINGER_MISPLACED_OR_WITHDRAWN">Misplaced or withdrawn finger has been detected during acquisition (MorphoSmart FINGER VP only).</string>
+    <string name="MORPHOERR_LICENSE_MISSING">A required license is missing.</string>
+    <string name="MORPHOERR_CANT_GRAN_PERMISSION_USB">Could not grant permissions to USB</string>
+
+
+    <!-- MESSAGE TO DISPLAY -->
+    <string name="MSG_ERROR_PERMISSION_REQUIRED">USB permission is required for this Application. Please restart and grant access to USB device.</string>
+    <string name="MSG_ERROR_NO_DEVICE_FOUND">Morpho device not detected, please plug the device and restart the App</string>
+
+    <string name="ACTION_USB_PERMISSION">com.famoco.morphodemo.USB_PERMISSION</string>
+    <string name="USER_USB_CONNECTION">Connection to USB Device …</string>
+
+    <string name="DEFAULT_SENSOR_MESSAGE">Put your finger on the device</string>
+    <string name="OWNER">by Famoco</string>
+
+    <string name="DIALOG_PRODUCT_SOFTWARE_INFO">%s\n\n%s</string>
+
+    <string name="MSG_ERROR_DEVICE_DISCONNECTED">Oops ! It seems like you unplugged the USB device, please plug it again to continue or exit the App.</string>
+
+    <string name="RECONNECTING_SOFTWARE">The device is reconnecting\nPlease wait…</string>
+    <string name="VALID_RECONNECTING_SOFTWARE">Morpho device reconnected</string>
+    <string name="ERROR_RECONNECTING_SOFTWARE">An error has occurred while reconnecting\nPlease retry !</string>
+
+    <string name="IMAGE_DESCRIPTION_FINGER">Image of the finger captured</string>
+    <string name="IMAGE_DESCRIPTION_FAMOCO_LOGO">Famoco Logo</string>
+    <string name="NO_FINGERPRINT_STORED">No fingerprint stored yet</string>
+    <string name="biometric_fingerprint">Biometric Fingerprint</string>
+    <string name="by">"by "</string>
+    <string name="oh_no">Oh no !</string>
+    <string name="bjceifbviebviue">bjceifbviebviue</string>
+    <string name="success">Success !</string>
+    <string name="back">Back</string>
+    <string name="place_your_finger">Place Your Finger</string>
+    <string name="rest_your_finger_on_the_biometric_module">Rest your finger on the biometric module</string>
+    <string name="select_your_registration_method">Select your registration method</string>
+    <string name="classic">Classic</string>
+    <string name="wsq_image">WSQ image</string>
+    <string name="wavelet_scalar_quantization">Wavelet scalar quantization</string>
+    <string name="verify_your_fingerprint">Verify your fingerprint</string>
+    <string name="verify">Verify</string>
+    <string name="reboot_biometric_module">Reboot biometric module</string>
+    <string name="about">About</string>
+
+</resources>

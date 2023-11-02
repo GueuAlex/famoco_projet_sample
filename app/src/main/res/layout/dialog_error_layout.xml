@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/invisible">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_background"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/error_dialog_icon_background"
+            android:src="@drawable/ic_close"
+            android:layout_alignBottom="@id/text_container"
+            android:padding="12dp"/>
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/icon"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oh_no"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="8dp"/>
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/bjceifbviebviue"
+                android:layout_margin="12dp"/>
+        </LinearLayout>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignStart="@id/exit_button"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="14sp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/content"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/title"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginStart="8dp"/>-->
+
+    <ImageButton
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_error"
+        android:background="@color/invisible"
+        android:layout_alignParentEnd="true"
+        android:padding="8dp"/>
+    </RelativeLayout>
+</LinearLayout>

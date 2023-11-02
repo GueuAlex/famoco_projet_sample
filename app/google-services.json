@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "854835789706",
+    "firebase_url": "https://morpho-demo.firebaseio.com",
+    "project_id": "morpho-demo",
+    "storage_bucket": "morpho-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854835789706:android:b8c0f5254291afa3e35273",
+        "android_client_info": {
+          "package_name": "com.famoco.morphodemo.sdk26"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854835789706-h44hi6s5d6e6dt446uc20dn9sv8p9mma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk_rXAEHV0yAI4joKTZfiEvQbf-InxX6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854835789706-h44hi6s5d6e6dt446uc20dn9sv8p9mma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

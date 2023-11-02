@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HardcodedText" severity="warning" />
+    <issue id="GradleDependency" severity="informational" />
+    <issue id="ObsoleteLintCustomCheck" severity="ignore" />
+    <issue id="ContentDescription" severity="ignore" />
+</lint>
